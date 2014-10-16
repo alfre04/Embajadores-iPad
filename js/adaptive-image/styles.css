@@ -1,0 +1,4 @@
+.adaptive-image { padding: 0; margin: 0; }
+.adaptive-image:after { content: "."; display: block; visibility: hidden; }
+.adaptive-image{ width: 100%; }
+.adaptive-image img { display: block; width: 100%; height: auto; }

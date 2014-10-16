@@ -1,0 +1,202 @@
+body,
+p{
+    color: #455560;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+p span{
+    font-size: 15px;
+}
+
+h3{
+    color: #f40008;
+    font-weight: normal;
+}
+
+.container_12 .content-int{
+    clear: both;
+    float: left;
+    height: auto;
+    margin: 0 20px 150px;
+}
+
+/***Login***/
+.login #content{
+    margin-bottom: 0;
+}
+
+.login-home{
+    margin-top: 20px;
+}
+
+.login-home div{
+    clear: right;
+    float: left;
+    width: 100%;
+}
+
+.button-login{
+    background: none repeat scroll 0 0 red !important;
+    color: #FFFFFF !important;
+    height: 38px;
+    text-align: center;
+    width: 100% !important;
+}
+
+.login label{
+    float: left;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+input{
+    border: 0 none;
+    clear: inherit;
+    color: #9C9D9D;
+    float: right;
+    font-size: 20px !important;
+    height: auto;
+    margin-bottom: 10px !important;
+    padding-bottom: 7px !important;
+    padding-left: 10px !important;
+    padding-top: 7px !important;
+    width: 75% !important;
+}
+
+
+.button-login{
+    background: none repeat scroll 0 0 red !important;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    height: 38px;
+    text-align: center;
+    width: 100% !important;
+}
+
+
+.resetpassword{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resetpassword a{
+    color: #9c9c9c;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.login .footer{
+    margin-top: 20px;
+}
+.error{
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.error-num{
+    display: none;
+}
+
+/***Reset***/
+.reset{
+    margin-top: 20px;
+}
+.reset label {
+    float: left;
+    margin-bottom: 10px;
+    width: 15%;
+}
+
+/***Home***/
+.home .grid_3,
+.home .grid_6{
+    margin: 0 !important;
+}
+
+.home .grid_3{
+    width: 24.5% !important;
+}
+
+.home .grid_6{
+    width: 50% !important;
+}
+
+.home #content{
+    margin: 0 auto;
+}
+
+
+.menu{
+    background: none repeat scroll 0 0 #F40009;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul li{
+    float: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 9%;
+}
+
+/***Preguntas Frecuentes***/
+.back{
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    width: 100%;
+}
+
+.back img{
+    width: 5%;
+}
+
+#wrapper .accordionButton{
+    background: url("../images/boton-preguntas.png") repeat scroll 0 0 transparent;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+#wrapper .accordionButton a{
+    color: #455560;
+    text-decoration: none;
+}
+
+#wrapper .accordionContent{
+    width: 100%;
+}
+
+#wrapper .accordionContent a{
+    color: #455560;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.secciones h2{
+    font-size: 20px;
+}
+
+.secciones p{
+    font-size: 17px;
+}
+
+.secciones p a{
+    color: #F40008;
+    text-decoration: none;
+}
+
+.secciones ul{
+    font-size: 17px;
+    list-style: circle;
+}

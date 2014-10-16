@@ -1,0 +1,16 @@
+#menu-mobile,
+#menu-mobile-ipadhorizontal{
+  display: none;
+}
+
+#menu-pilares #menu-pc{
+  display: block !important;
+}
+
+#menu-pilares #menu-pc ul li{
+  width: 23% !important;
+}
+
+#menu-seccion #menu-pc ul li{
+  width: 32% !important;
+}

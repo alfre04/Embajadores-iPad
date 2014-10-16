@@ -1,0 +1,18 @@
+.section-content {
+  position: relative;
+}
+
+/**Menu Principal Home**/
+
+.section-content #content #menu-pilares #menu-pc ul li a div {
+  background-image: url('../images/font-hover-ie.png');
+  background-color: transparent !important;
+}
+.section-content #content #menu-pilares #menu-pc ul li a div span {
+  color: #FFFFFF;
+  font-size: 50px;
+}
+
+.interiores #art #video iframe{
+  border: none;
+}
