@@ -2,8 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="format-detection" content="telephone=no" /> 
-		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">-->
 		<link rel="apple-touch-icon" href="js/home-screen/images/touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="js/home-screen/images/touch-icon-ipad.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="js/home-screen/images/touch-icon-iphone4.png">
@@ -20,14 +19,14 @@
 		
 		<script type="text/javascript">
 		
-		//function loaded () {
-		//	if ( window.location.hash.match('ATHS') ) return;
-		//
-		//	addToHome.show();
-		//	window.location.hash = '#ATHS';
-		//}
-		//
-		//window.addEventListener('load', loaded, false);
+		function loaded () {
+			if ( window.location.hash.match('ATHS') ) return;
+		
+			addToHome.show();
+			window.location.hash = '#ATHS';
+		}
+		
+		window.addEventListener('load', loaded, false);
 		
 		</script>
 			
@@ -89,80 +88,62 @@
 		<style type="text/css" media="screen">
 			.ui-page { -webkit-backface-visibility: hidden; }
 		</style>
-		<title>Embajadores</title>
+		<title>Cafeina</title>
 	</head>
-	
-	<body class="home">
-		<div id="topWrapper" >
-			<img src="images/logo.png" class="adaptive-image" />
+	<body class="secciones">
+		<div class="header">
+			<div id="topWrapper" >
+				<img src="images/header-cafeina.png" class="adaptive-image" />
+			</div>
 		</div>
 		
-		<div class="section section-content">
-			  <div id="content" class="container_12">
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="hidratacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-hidratacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-1.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="azucar.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-azucar.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_6 alpha">
-				    <img src="images/menu-2.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3">
-				    <a href="cafeina.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-cafeina.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="edulcorantes.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-edulcorantes.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="carbonatacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-carbonatacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3">
-				    <a href="balance.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-balance.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6 omega">
-				    <img src="images/menu-3.png" class="adaptive-image"/>
-				  </div>
-				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="actividad.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-actividad.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-4.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="preguntas/" target="_parent">
-				      <img src="images/menu-preguntas.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				</div>
-			      </div>
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="section section-content">
+					<div class="content-int">
+						<div id="content">
+							<div>
+								<img src="images/cafeina-mg.png" class="adaptive-image" style="margin-top: 60px; margin-bottom: 60px;" />
+							</div>
+							<div>
+								<p>
+									La cafeína es un ingrediente seguro que, en muchas culturas se ha disfrutado por muchos siglos alrededor del mundo.
+								</p>
+								   
+								<h3>
+									Todas las bebidas hidratan, incluidas las que contienen cafeína.
+								</h3>
+								   
+								<p>
+									La cafeína se encuentra de manera natural en hojas de té, granos de café y semillas de cacao. También puede ser fabricada por el hombre<br/>
+									La concentración de cafeína en nuestras bebidas es pequeña - normalmente menos de una tercera parte de la concentración habitual en el café.
+								</p>
+							     
+								<h3>
+									El consumo moderado de cafeína para los adultos, considerado en cerca de 300 mg podría  ser el equivalente a lo contenido en 2 a 3 tazas de café o de 5 a 6 latas de refrescos que contienen cafeína - no se ha asociado con efectos adversos en la salud para adultos sanos. Las mujeres embarazadas y lactantes, o las que están tratando de embarazarse, deberían de consultar a su médico al respecto del consumo de cafeína.
+								</h3>
+							     
+								<p>
+									Con respecto a la cafeína y los niños, muchos alimentos y bebidas de consumo habitual contiene cafeína. Como con otros alimentos y bebidas, los padres de familia deberían de consultar con los profesionales de salud sobre la concentración adecuada según el rango de edad y la condición de cada niño.
+								</p>
+							     
+								<h3>
+									La cafeína agrega un sabor ligeramente amargo a las bebidas  que se complementa  con los Edulcorantes tanto calóricos como no calóricos y ayudan a desarrollar un sabor disfrutable en las bebidas.
+								</h3>
+								
+								<p>
+									El consumo moderado de cafeína han demostrado tener efectos beneficios en el estado de ánimo y el rendimiento mental en muchas personas.</br>
+									Las bebidas energéticas (por ejemplo, Burn) en general no contienen  menos de 20 mg/100ml y más  de 32 mg/100 ml de cafeína. Este rango puede variar de acuerdo con las regulaciones nacionales.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+		
+		<div class="menu">
+			<object type="text/html" data="menu-interiores.html" width="100%"></object>
 		</div>
 	</body>
 </html>

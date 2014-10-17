@@ -2,8 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="format-detection" content="telephone=no" /> 
-		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">-->
 		<link rel="apple-touch-icon" href="js/home-screen/images/touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="js/home-screen/images/touch-icon-ipad.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="js/home-screen/images/touch-icon-iphone4.png">
@@ -20,14 +19,14 @@
 		
 		<script type="text/javascript">
 		
-		//function loaded () {
-		//	if ( window.location.hash.match('ATHS') ) return;
-		//
-		//	addToHome.show();
-		//	window.location.hash = '#ATHS';
-		//}
-		//
-		//window.addEventListener('load', loaded, false);
+		function loaded () {
+			if ( window.location.hash.match('ATHS') ) return;
+		
+			addToHome.show();
+			window.location.hash = '#ATHS';
+		}
+		
+		window.addEventListener('load', loaded, false);
 		
 		</script>
 			
@@ -89,80 +88,49 @@
 		<style type="text/css" media="screen">
 			.ui-page { -webkit-backface-visibility: hidden; }
 		</style>
-		<title>Embajadores</title>
+		<title>Carbonatación</title>
 	</head>
 	
-	<body class="home">
-		<div id="topWrapper" >
-			<img src="images/logo.png" class="adaptive-image" />
+	<body class="secciones">
+		<div class="header">
+			<div id="topWrapper" >
+				<img src="images/header-carbonatacion.png" class="adaptive-image" />
+			</div>
 		</div>
-		
-		<div class="section section-content">
-			  <div id="content" class="container_12">
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="hidratacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-hidratacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-1.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="azucar.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-azucar.png" class="adaptive-image"/>
-				    </a>
-				  </div>
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="section section-content">
+					<div class="content-int">
+						<div id="content">
+							<div>
+								<img src="images/carbonatacion-mg.png" class="adaptive-image" style="margin-top: 60px; margin-bottom: 60px;" />
+							</div>
+							
+							<div>
+								<p>
+								      La carbonatación le pone el “fizz” a las bebidas burbujeantes. Sucede cuando el dióxido de carbono – el gas natural que exhalamos en la respiración y que las plantas ocupan - se introduce a presión en un líquido, dándole a las bebidas carbonatadas su sabor “astringente” característico y su cualidad refrescante.
+								</p>
+								   
+								<h3>
+								      Durante siglos las bebidas carbonatadas se han asociado a beneficios para ayudar a combatir la indigestión y los dolores de estómago. Se requieren más estudios en esta área.
+								</h3>
+								
+								<p>
+								      Para aquellos preocupados por el mantenimiento del peso corporal, el dióxido de carbono que da a los refrescos su cualidad burbujeante, no aporta calorías, pues está formado únicamente por oxígeno y carbono.
+								</p>
+							    
+								<h3>
+								      Una gran parte del dióxido de carbono en los refrescos no llega al estómago. De hecho, la gran mayoría se escapa cuando se destapa la botella. La pequeña cantidad de  gas que alcanza el estómago se absorben rápida y sencillamente a través del aparato digestivo. La cantidad de dióxido de carbono que se absorbe al cuerpo es relativamente pequeña comparada con la cantidad que nuestro cuerpo produce naturalmente cuando las células liberan energía de los alimentos.
+								</h3>
+							</div>
+						</div>
+					</div>
 				</div>
 				
-				<div class="grid_12 home">
-				  <div class="grid_6 alpha">
-				    <img src="images/menu-2.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3">
-				    <a href="cafeina.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-cafeina.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="edulcorantes.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-edulcorantes.png" class="adaptive-image"/>
-				    </a>
-				  </div>
+				<div class="menu">
+					<object type="text/html" data="menu-interiores.html" width="100%"></object>
 				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="carbonatacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-carbonatacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3">
-				    <a href="balance.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-balance.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6 omega">
-				    <img src="images/menu-3.png" class="adaptive-image"/>
-				  </div>
-				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="actividad.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-actividad.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-4.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="preguntas/" target="_parent">
-				      <img src="images/menu-preguntas.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				</div>
-			      </div>
+			</div>
 		</div>
 	</body>
 </html>

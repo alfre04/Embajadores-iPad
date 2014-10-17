@@ -2,8 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="format-detection" content="telephone=no" /> 
-		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">-->
 		<link rel="apple-touch-icon" href="js/home-screen/images/touch-icon-iphone.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="js/home-screen/images/touch-icon-ipad.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="js/home-screen/images/touch-icon-iphone4.png">
@@ -20,14 +19,14 @@
 		
 		<script type="text/javascript">
 		
-		//function loaded () {
-		//	if ( window.location.hash.match('ATHS') ) return;
-		//
-		//	addToHome.show();
-		//	window.location.hash = '#ATHS';
-		//}
-		//
-		//window.addEventListener('load', loaded, false);
+		function loaded () {
+			if ( window.location.hash.match('ATHS') ) return;
+		
+			addToHome.show();
+			window.location.hash = '#ATHS';
+		}
+		
+		window.addEventListener('load', loaded, false);
 		
 		</script>
 			
@@ -89,80 +88,53 @@
 		<style type="text/css" media="screen">
 			.ui-page { -webkit-backface-visibility: hidden; }
 		</style>
-		<title>Embajadores</title>
+		<title>Balance energético</title>
 	</head>
-	
-	<body class="home">
-		<div id="topWrapper" >
-			<img src="images/logo.png" class="adaptive-image" />
+	<body class="secciones">
+		<div class="header">
+			<div id="topWrapper" >
+				<img src="images/header-balance.png" class="adaptive-image" />
+			</div>
 		</div>
 		
-		<div class="section section-content">
-			  <div id="content" class="container_12">
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="hidratacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-hidratacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-1.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="azucar.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-azucar.png" class="adaptive-image"/>
-				    </a>
-				  </div>
+		<div class="container_12">
+			<div class="grid_12">
+				<div class="section section-content">
+					<div class="content-int">
+						<div id="content">
+							<div>
+							   <img src="images/balance-mg.png" class="adaptive-image" style="margin-top: 60px; margin-bottom: 60px;" />
+							</div>
+							
+							<div>
+								<p>
+								      Cuando se trata de manejar el peso corporal, es importante balancear las calorías que ingieres con las calorías que quemas, a través del consumo de una dieta correcta y balanceada y de participar en actividad física regular
+								</p>
+								   
+								<h3>
+								      Para perder peso corporal necesitas, o bien quemar más calorías, o bien consumir menos calorías, o ambas. El concepto de manejar las calorías que entran y salen es lo que los expertos conocen como “Balance Energético”
+								</h3>
+								
+								<p>
+								      Todos los alimentos bebidas pueden ser parte de una dieta correcta que se combina con actividad física regular. Pero es importante recordar que todas las calorías cuentan, sin importar de que alimento o bebida proceden, incluyendo las bebidas calóricas.
+								</p>
+							     
+								<h3>
+								      Nuestros empaques proveen información factual, importante y entendible sobre nuestros productos, incluyendo información básica sobre nutrición y etiquetado frontal para abordar necesidades individuales.
+								</h3>
+								
+								<p>
+								      Estamos comprometidos con proveer una variedad de productos para todo tipo de estilos de vida y ocasiones. Los consumidores que quieren reducir las calorías que consumen de las bebidas, pueden elegir de nuestro siempre creciente portafolio de bebidas bajas en y libres de calorías.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				
-				<div class="grid_12 home">
-				  <div class="grid_6 alpha">
-				    <img src="images/menu-2.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3">
-				    <a href="cafeina.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-cafeina.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="edulcorantes.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-edulcorantes.png" class="adaptive-image"/>
-				    </a>
-				  </div>
+				<div class="menu">
+					<object type="text/html" data="menu-interiores.html" width="100%"></object>
 				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="carbonatacion.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-carbonatacion.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_3">
-				    <a href="balance.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-balance.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6 omega">
-				    <img src="images/menu-3.png" class="adaptive-image"/>
-				  </div>
-				</div>
-				
-				<div class="grid_12 home">
-				  <div class="grid_3 alpha">
-				    <a href="actividad.html" data-role="button" data-transition="flow" data-inline="true">	
-				      <img src="images/menu-actividad.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				  <div class="grid_6">
-				    <img src="images/menu-4.png" class="adaptive-image"/>
-				  </div>
-				  <div class="grid_3 omega">
-				    <a href="preguntas/" target="_parent">
-				      <img src="images/menu-preguntas.png" class="adaptive-image"/>
-				    </a>
-				  </div>
-				</div>
-			      </div>
+			</div>
 		</div>
 	</body>
 </html>
