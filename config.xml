@@ -7,7 +7,7 @@
 
     <name>Embajadores</name>
     
-    <!--<icon src="icon.png" /> -->
+    <icon src="icon.png" /> 
     
     <!-- retina iPad support: PhoneGap 2.5.0+ only -->
     <icon src="images/ios/coca.png" gap:platform="ios" width="144" height="144" />
