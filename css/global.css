@@ -19,6 +19,17 @@ h3{
     font-weight: normal;
 }
 
+.container_index{
+    float: left;
+    margin: 0 5%;
+    width: 90%;
+}
+
+.container_index .home{
+    float: left;
+    width: 100%;
+}
+
 .container_12 .content-int{
     clear: both;
     float: left;
@@ -128,10 +139,9 @@ input{
     width: 50% !important;
 }
 
-.home #content{
+/*.home #content{
     margin: 0 auto;
-}
-
+}*/
 
 .menu{
     background: none repeat scroll 0 0 #F40009;
