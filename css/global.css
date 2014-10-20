@@ -5,6 +5,11 @@ p{
     font-size: 25px;
 }
 
+#topWrapper{
+    background: none repeat scroll 0 0 #f3f4f5;
+    padding-top: 20px;
+}
+
 p span{
     font-size: 15px;
 }
