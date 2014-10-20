@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+            xmlns:gap   = "http://phonegap.com/ns/1.0"
+            id          = "com.LlorenteCuenca.RevistaUNO"
+            versionCode = "10" 
+            version     = "1.0.10" >
+
+    <name>Hidratacion</name>
+    
+    <icon src="icon.png" /> 
+    
+    <!-- retina iPad support: PhoneGap 2.5.0+ only -->
+    <icon src="images/ios/coca.png" gap:platform="ios" width="144" height="144" />
+    
+    <gap:splash src="images/ios/coca.png" gap:platform="ios" width="320"  height="480"  />
+    <gap:splash src="images/ios/coca.png" gap:platform="ios" width="640"  height="960"  />
+    <gap:splash src="images/ios/coca.png" gap:platform="ios" width="640"  height="1136" />
+    <gap:splash src="images/ios/ios-1024.png" gap:platform="ios" width="1024" height="748"  />
+    <gap:splash src="images/ios/ios-1024.png" gap:platform="ios" width="768"  height="1004" />
+    <!-- retina iPad -->
+    <gap:splash src="images/ios/ios-2048.png" gap:platform="ios" width="2048" height="1496" />
+    <gap:splash src="images/ios/ios-2048.png" gap:platform="ios" width="1536" height="2008" />
+    
+    
+
+    <description>
+        Desarrollo APP Embajadores
+    </description>
+
+    <author href="http://www.llorenteycuenca.com" email="vvalverde@llorenteycuenca.com">
+        Victor Valverde
+    </author>
+    
+    
+    <preference name="Fullscreen" value="true" />
+    <!--<preference name="BackgroundColor" value="0xff0000ff" />-->
+    <preference name="orientation" value="landscape" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="WebViewBounce" value="true" />
+    
+    
+    <!--<content src="index.html" />
+    <access origin="*" />-->
+
+
+</widget>
